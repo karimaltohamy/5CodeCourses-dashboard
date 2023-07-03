@@ -212,21 +212,9 @@
 .sidebar .header_sidebar {
   margin-bottom: 40px;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 10px;
-}
-.sidebar .header_sidebar h1 {
-  margin-bottom: 0;
-  font-size: 22px;
-  font-weight: 700;
 }
 .sidebar .header_sidebar img {
-  width: 120px;
+  width: 145px;
 }
 .sidebar .links {
   display: -webkit-box;
@@ -287,7 +275,7 @@
   height: 28px;
 }
 .sidebar .links .link_item .text .icon i {
-  font-size: 30px;
+  font-size: 23px;
 }
 .sidebar .links .link_item .text span {
   font-weight: 600;
@@ -504,7 +492,7 @@
   background-color: #212529;
   color: white !important;
 }
-.conetnt_table .container_table .dataTables_wrapper table tbody tr.col_blog td {
+.conetnt_table .container_table .dataTables_wrapper table tbody tr.col_blog td, .conetnt_table .container_table .dataTables_wrapper table tbody tr.col_register td {
   max-width: 130px;
   white-space: nowrap;
   text-overflow: ellipsis;

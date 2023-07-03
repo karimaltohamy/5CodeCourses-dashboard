@@ -203,7 +203,8 @@ $primary-color: #7367f0;
           }
 
           tr {
-            &.col_blog {
+            &.col_blog,
+            &.col_register {
               td {
                 max-width: 130px;
                 white-space: nowrap;

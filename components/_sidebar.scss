@@ -44,18 +44,9 @@ $main-color: #192335;
   .header_sidebar {
     margin-bottom: 40px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    h1 {
-      margin-bottom: 0;
-      font-size: 22px;
-      font-weight: 700;
-    }
 
     img {
-      width: 120px;
+      width: 145px;
     }
   }
 
@@ -103,7 +94,7 @@ $main-color: #192335;
           }
 
           i {
-            font-size: 30px;
+            font-size: 23px;
           }
         }
 

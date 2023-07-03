@@ -21,8 +21,6 @@
       rel="stylesheet"
       href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"
     />
-    <!-- Include stylesheet -->
-<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
   </head>
   <body>
     <main>
@@ -75,7 +73,7 @@
               <span>Users</span>
             </div>
           </a>
-          <a href="blogs.html" class="link_item">
+        <a href="blogs.html" class="link_item">
             <div class="text">
               <div class="icon">
                 <svg
@@ -96,7 +94,7 @@
               <span>Blogs</span>
             </div>
           </a>
-           <a href="courses.html" class="link_item active">
+          <a href="courses.html" class="link_item">
             <div class="text">
               <div class="icon">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -107,7 +105,7 @@
               <span>Courses</span>
             </div>
           </a>
-           <a href="registration.html" class="link_item">
+           <a href="registration.html" class="link_item active">
             <div class="text">
               <div class="icon">
               <i class="fa-regular fa-address-card"></i>
@@ -208,40 +206,35 @@
         <div class="main_content_tables">
           <div class="conetnt_table">
             <div class="head_table">
-     
               <div class="info">
-                <button class="btn_add">Add Course</button>
+                <button class="btn_add">Add Student</button>
               </div>
             </div>
             <div class="container_table">
-              <table id="blogs" class="display" style="width: 100%">
+              <table id="users" class="display" style="width: 100%">
                 <thead>
                   <tr>
                     <th>ID</th>
-                    <th>title</th>
-                    <th>desc</th>
-                    <th>Date</th>
-                    <th>Created By</th>
-                    <th>Price</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Age</th>
+                    <th>College</th>
+                    <th>phone Number</th>
                     <th>Actions</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>100907</td>
-                    <td>React Front To Back</td>
-                    <td>
-                      Morbi volutpat nisi a ligula vestibulum placerat.
-                      Suspendisse venenatis...
-                    </td>
-                    <td>November 22, 2020</td>
-                    <td>Ahmed</td>
-                    <td>$200</td>
+                  <tr class="col_register">
+                    <td>1009078003671</td>
+                    <td>Ahmed mohammed</td>
+                    <td>ahmed283@gmail.com</td>
+                    <td>Cairo,egypt</td>
+                    <td>30</td>
+                    <td>faculty of Commerce</td>
+                    <td>01007364834</td>
                     <td>
                       <div class="btns">
-                        <a href="coursesDetails.html" class="btn_view">
-                          <i class="fa-regular fa-eye"></i>
-                        </a>
                         <button class="btn_delete">
                           <i class="fa-regular fa-trash-can"></i>
                         </button>
@@ -251,21 +244,16 @@
                       </div>
                     </td>
                   </tr>
-                  <tr>
-                    <td>100907</td>
-                    <td>React Front To Back</td>
-                    <td>
-                      Morbi volutpat nisi a ligula vestibulum placerat.
-                      Suspendisse venenatis...
-                    </td>
-                    <td>November 22, 2020</td>
-                    <td>Ahmed</td>
-                    <td>$200</td>
+                  <tr class="col_register">
+                    <td>1009078003656</td>
+                    <td>awad mohammed</td>
+                    <td>awad283@gmail.com</td>
+                    <td>Cairo,egypt</td>
+                    <td>23</td>
+                    <td>faculty of Commerce</td>
+                    <td>010073648434</td>
                     <td>
                       <div class="btns">
-                        <a href="coursesDetails.html" class="btn_view">
-                          <i class="fa-regular fa-eye"></i>
-                        </a>
                         <button class="btn_delete">
                           <i class="fa-regular fa-trash-can"></i>
                         </button>
@@ -275,21 +263,16 @@
                       </div>
                     </td>
                   </tr>
-                  <tr>
-                    <td>100907</td>
-                    <td>React Front To Back</td>
-                    <td>
-                      Morbi volutpat nisi a ligula vestibulum placerat.
-                      Suspendisse venenatis...
-                    </td>
-                    <td>November 22, 2020</td>
-                    <td>Ahmed</td>
-                    <td>$200</td>
+                  <tr class="col_register">
+                    <td>1009078003659</td>
+                    <td>karim mohammed</td>
+                    <td>mahmmoud283@gmail.com</td>
+                    <td>Cairo,egypt</td>
+                    <td>23</td>
+                    <td>faculty of Commerce</td>
+                    <td>010073648434</td>
                     <td>
                       <div class="btns">
-                        <a href="coursesDetails.html" class="btn_view">
-                          <i class="fa-regular fa-eye"></i>
-                        </a>
                         <button class="btn_delete">
                           <i class="fa-regular fa-trash-can"></i>
                         </button>
@@ -299,7 +282,44 @@
                       </div>
                     </td>
                   </tr>
-              
+                  <tr class="col_register">
+                    <td>1009078003663</td>
+                    <td>anas mohammed</td>
+                    <td>mahmmoud283@gmail.com</td>
+                    <td>Cairo,egypt</td>
+                    <td>23</td>
+                    <td>faculty of Commerce</td>
+                    <td>010073648434</td>
+                    <td>
+                      <div class="btns">
+                        <button class="btn_delete">
+                          <i class="fa-regular fa-trash-can"></i>
+                        </button>
+                        <button class="btn_update">
+                          <i class="fa-regular fa-pen-to-square"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="col_register">
+                    <td>1009078003652</td>
+                    <td>awad mohammed</td>
+                    <td>awad283@gmail.com</td>
+                    <td>Cairo,egypt</td>
+                    <td>23</td>
+                    <td>faculty of Commerce</td>
+                    <td>010073648434</td>
+                    <td>
+                      <div class="btns">
+                        <button class="btn_delete">
+                          <i class="fa-regular fa-trash-can"></i>
+                        </button>
+                        <button class="btn_update">
+                          <i class="fa-regular fa-pen-to-square"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -312,7 +332,7 @@
     <div class="overflow"></div>
     <div class="popup_add">
       <div class="head">
-         <h3>Add Course <i class="fa-regular fa-file-lines"></i></h4>
+         <h3>Add Student <i class="fa-regular fa-user"></i></h4>
         <i class="fa-regular fa-circle-xmark btn_close_add"></i>
       </div>
 
@@ -320,88 +340,57 @@
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Title</label>
+              <label for="">Name</label>
               <input type="text" placeholder="" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Date</label>
-              <input type="date" placeholder="" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Created By</label>
+              <label for="">Email</label>
               <input type="text" placeholder="" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Students</label>
-              <input type="number" placeholder="" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Lessons</label>
-              <input type="number" placeholder="" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Price</label>
-              <input type="number" placeholder="" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Level</label>
+              <label for="">Address</label>
               <input type="text" placeholder="" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Duration</label>
-              <input type="number" placeholder="" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Category</label>
+              <label for="">College</label>
               <input type="text" placeholder="" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Language</label>
+              <label for="">Age</label>
               <input type="text" placeholder="" />
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <div class="input_file">
-          <label for="export-file">
-            Select Img <i class="fa-solid fa-file-export"></i>
-          </label>
-          <input type="file" placeholder="" id="export-file" />
-        </div>
+            <div class="input_item">
+              <label for="">City</label>
+              <input type="text" placeholder="" />
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="input_item">
+              <label for="">Phone</label>
+              <input type="text" placeholder="" />
+            </div>
           </div>
         </div>
-            <div id="editor">
-              <p>Hello World!</p>
-              <p>Some initial <strong>bold</strong> text</p>
-              <p><br></p>
-            </div>
-        <button class="btn_add">Add Blog</button>
+        <button class="btn_add">Add Student</button>
         </form>
     </div>
     <!-- end popup Add -->
 
-    <!-- start popup Add -->
+     <!-- start popup update -->
     <div class="overflow"></div>
     <div class="popup_update">
       <div class="head">
-         <h3>Update Blog <i class="fa-regular fa-file-lines"></i></h4>
+         <h3>Update Student <i class="fa-regular fa-user"></i></h4>
         <i class="fa-regular fa-circle-xmark btn_close_update"></i>
       </div>
 
@@ -409,103 +398,60 @@
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Title</label>
-              <input type="text" placeholder="" value="React Front To Back" />
+              <label for="">Name</label>
+              <input type="text" placeholder="" value="karim ahmed" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Date</label>
-              <input type="date" placeholder="" value="07/05/2023" />
+              <label for="">Email</label>
+              <input type="text" placeholder="karim273@gmail.com" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Created By</label>
-              <input type="text" placeholder="" value="ahmed" />
+              <label for="">Address</label>
+              <input type="text" placeholder="cairo, egypt" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Students</label>
-              <input type="number" placeholder="" value="45" />
+              <label for="">College</label>
+              <input type="text" placeholder="" value="faculty of Commerce" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Lessons</label>
-              <input type="number" placeholder="" value="21" />
+              <label for="">Age</label>
+              <input type="text" placeholder="20" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Price</label>
-              <input type="number" placeholder="" value="220" />
+              <label for="">City</label>
+              <input type="text" placeholder="cairo" />
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="input_item">
-              <label for="">Level</label>
-              <input type="text" placeholder="" value="Beginners" />
+              <label for="">Phone</label>
+              <input type="text" placeholder="010077467r" />
             </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Duration</label>
-              <input type="number" placeholder="" value="90" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Category</label>
-              <input type="text" placeholder="" value="Data Science" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_item">
-              <label for="">Language</label>
-              <input type="text" placeholder="" value="English" />
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="input_file">
-          <label for="export-file">
-            Select Img <i class="fa-solid fa-file-export"></i>
-          </label>
-          <input type="file" placeholder="" id="export-file" />
-        </div>
           </div>
         </div>
-        
-          <div id="editor-update">
-              <p>Hello World!</p>
-              <p>Some initial <strong>bold</strong> text</p>
-              <p><br></p>
-            </div>
-        <button class="btn_add">Update Blog</button>
+        <button class="btn_add">Update Student</button>
         </form>
     </div>
-    <!-- end popup Add -->
-
+    <!-- end popup update -->
 
     <script src="js/sidebar.js"></script>
     <script src="js/popups.js"></script>
     <script src="js/boxs-header.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-    <!-- Include the Quill library -->
-    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
     <script>
-        const quill = new Quill('#editor', {
-          theme: 'snow'
-        });
-
-         const quillUpdate = new Quill('#editor-update', {
-          theme: 'snow'
-        });
-
       $(document).ready(function () {
-        $("#blogs").DataTable({
+        $("#users").DataTable({
           pagingType: "full_numbers",
           scrollX: true,
         });
